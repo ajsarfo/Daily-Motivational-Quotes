@@ -1,0 +1,65 @@
+{
+  "title" :"College",
+  "quotes" : [
+    {
+      "message" : "A man who has never gone to school may steal from a freight car; but if he has a university education, he may steal the whole railroad.",
+      "name" : "Theodore Roosevelt"
+    },
+     {
+      "message" : "Does college pay? They do if you are a good open-field runner.",
+      "name" : "Will Rogers"
+    },
+     {
+      "message" : "The primary purpose of a liberal education is to make one's mind a pleasant place in which to spend one's leisure.",
+      "name" : "Sydney J Harris"
+    },
+     {
+      "message" : "I have never let schooling interfere with my education.",
+      "name" : "Mark Twain"
+    },
+     {
+      "message" : "You can lead a boy to college, but you can't make him think.",
+      "name" : "Elbert Hubbard"
+    },
+     {
+      "message" : "Without education we are in a horrible and deadly danger of taking educated people seriously.",
+      "name" : "G.K Chesterton"
+    },
+     {
+      "message" : "Economists report that a college education adds many thousands of dollars to a man's lifetime income--which he then spends sending his son to college.",
+      "name" : "Bill Vaughan"
+    },
+     {
+      "message" : "The things taught in schools and colleges are not an education, but the means to an education.",
+      "name" : "Ralph Waldo Emerson"
+    },
+     {
+      "message" : "College is a refuge from hasty judgment.",
+      "name" : "Robert Lee Frost"
+    },
+     {
+      "message" : "I was thrown out of college for cheating on the metaphysics exam; I looked into the soul of the boy sitting next to me.",
+      "name" : "Woody Allen"
+    },
+     {
+      "message" : "Never get married in college; it's hard to get a start if a prospective employer finds you've already made one mistake.",
+      "name" : "Elbert Hubbard"
+    },
+     {
+      "message" : "Cauliflower is nothing but cabbage with a college education.",
+      "name" : "Mark Twain"
+    },
+     {
+      "message" : "I think everyone should go to college and get a degree and then spend six months as a bartender and six months as a cabdriver. Then they would really be educated.",
+      "name" : 	"Al McGuire"
+    },
+     {
+      "message" : "I am often amazed at how much more capability and enthusiasm for science there is among elementary school youngsters than among college students.",
+      "name" : 	"Carl Sagan"
+    },
+     {
+      "message" : "Going to college offered me the chance to play football for four more years.",
+      "name" : 	"Ronald Regan"
+    }
+    ]
+}

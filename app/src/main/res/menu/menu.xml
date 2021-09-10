@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/authors"
+            android:title="@string/authors"
+            android:icon="@drawable/author"
+            android:checked="true"/>
+
+        <item android:id="@+id/categories"
+            android:title="@string/categories"
+            android:icon="@drawable/category"/>
+    </group>
+
+    <item android:title="@string/options">
+        <menu>
+            <item android:id="@+id/rate_us"
+                android:title="@string/rate_us"
+                android:icon="@drawable/rate"/>
+
+            <item android:id="@+id/share_app"
+                android:title="@string/share_the_app"
+                android:icon="@drawable/share"/>
+
+            <item android:id="@+id/settings"
+                android:title="@string/settings"
+                android:icon="@drawable/settings"/>
+
+            <item android:id="@+id/about"
+                android:title="@string/about"
+                android:icon="@drawable/about"/>
+
+            <item android:id="@+id/more_apps"
+                android:title="@string/more_apps"
+                android:icon="@drawable/more_apps"/>
+        </menu>
+    </item>
+</menu>

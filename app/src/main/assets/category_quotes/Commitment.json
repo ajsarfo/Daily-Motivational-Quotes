@@ -1,0 +1,41 @@
+{
+  "title" :"Commitment",
+  "quotes" : [
+    {
+      "message" : "Individual commitment to a group effort -- that is what makes a team work, a company work, a society work, a civilization work.",
+      "name" : "Vince Lombardi"
+    },
+     {
+      "message" : "It was character that got us out of bed, commitment that moved us into action, and discipline that enabled us to follow through.",
+      "name" : "Zig Ziglar"
+    },
+     {
+      "message" : "Commitment in the face of conflict produces character.",
+      "name" : "Unknown"
+    },
+     {
+      "message" : "The quality of a person's life is in direct proportion to their commitment to excellence, regardless of their chosen field of endeavor.",
+      "name" : "Vince Lombardi"
+    },
+     {
+      "message" : "The three great essentials to achieve anything worth while are, first, hard work; second, stick-to-itiveness; third, common sense.",
+      "name" : "Thomas A Edison"
+    },
+     {
+      "message" : "The successful person makes a habit of doing what the failing person doesn't like to do.",
+      "name" : "Thomas A Edison"
+    },
+     {
+      "message" : "Only one who devotes himself to a cause with his whole strength and soul can be a true master. For this reason mastery demands all of a person.",
+      "name" : "Albert Einstein"
+    },
+     {
+      "message" : "The only limit to your impact is your imagination and commitment.",
+      "name" : "Anthony Robbins"
+    },
+     {
+      "message" : "I know the price of success: dedication, hard work, and an unremitting devotion to the things you want to see happen.",
+      "name" : "Frank Lloyd Wright"
+    }
+    ]
+}

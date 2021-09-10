@@ -1,0 +1,225 @@
+{
+  "title" : "Book",
+  "quotes" : [
+    {
+      "message" : "The world is a book, and those who do not travel read only one page.",
+      "name" : "Saint Augustine"
+    },
+     {
+      "message" : "I still find each day too short for all the thoughts I want to think, all the walks I want to take, all the books I want to read, and all the friends I want to see.",
+      "name" : "John Burroughs"
+    },
+     {
+      "message" : "What we become depends on what we read after all the professors have finished with us. The greatest university of all is the collection of books.",
+      "name" : "Thomas Carlyle"
+    },
+     {
+      "message" : "Happy the people whose annals are blank in the history books!",
+      "name" : "Thomas Carlyle"
+    },
+     {
+      "message" : "If I have not read a book before, it is, for all intents and purposes, new to me whether it was printed yesterday or three hundred years ago.",
+      "name" : "William Hazlitt"
+    },
+     {
+      "message" : "Honesty is the first chapter of the book of wisdom.",
+      "name" : "Thomas Jefferson"
+    },
+     {
+      "message" : "A book is like a garden carried in the pocket.",
+      "name" : "Chinese Proverb"
+    },
+     {
+      "message" : "The experience to be gathered from books, Though often valuable, is but of the nature of learning; Whereas the experience gained from actual life, Is of the nature of wisdom; And a small store of the latter Is worth vastly more than a stock of the former.",
+      "name" : "Samuel Smiles"
+    },
+     {
+      "message" : "The man who does not read good books has no advantage over the man who cannot read them.",
+      "name" : "Mark Twain"
+    },
+     {
+      "message" : "Be careful of reading health books, you might die of a misprint.",
+      "name" : "Mark Twain"
+    },
+     {
+      "message" : "No two persons ever read the same book.",
+      "name" : "Edmund Wilson"
+    },
+     {
+      "message" : "Some books are to be tasted, others swallowed, and some few to be chewed and digested.",
+      "name" : "Sir Francis Bacon"
+    },
+     {
+      "message" : "Books must follow sciences, and not sciences books.",
+      "name" : "Sir Francis Bacon"
+    },
+     {
+      "message" : "A room without books is like a body without a soul.",
+      "name" : "Marcus Tullius Cicero"
+    },
+     {
+      "message" : "Every burned book or house enlightens the world; every suppressed or expunged word reverberates through the earth from side to side.",
+      "name" : "Ralph Waldo Emerson"
+    },
+     {
+      "message" : "I am sure of this, that by going much alone a man will get more of a noble courage in thought and word than from all the wisdom that is in books.",
+      "name" : "Ralph Waldo Emerson"
+    },
+     {
+      "message" : "I can tell you, honest friend, what to believe: believe life; it teaches better than book or orator.",
+      "name" : "Johann Wolfgang von Goethe"
+    },
+     {
+      "message" : "If a man writes a book, let him set down only what he knows. I have guesses enough of my own.",
+      "name" : "Johann Wolfgang von Goethe"
+    },
+     {
+      "message" : "The love of learning, the sequestered nooks, And all the sweet serenity of books.",
+      "name" : "Henry Wordsworth Longfellow"
+    },
+     {
+      "message" : "Nobody ever outgrows Scripture; the book widens and deepens with our years.",
+      "name" : "Charles Haddon Spurgeon"
+    },
+     {
+      "message" : "Literature is my Utopia. Here I am not disenfranchised. No barrier of the sense shuts me out from the sweet, gracious discourse of my book friends. They talk to me without embarrassment or awkwardness.",
+      "name" : "Helen Keller"
+    },
+     {
+      "message" : "There are men that will make you books, and turn them loose into the world, with as much dispatch as they would do a dish of fritters.",
+      "name" : "Miguel de Cervantes"
+    },
+     {
+      "message" : "The only words that ever satisfied me as describing Nature are the terms used in fairy books, charm, spell, enchantment. They express the arbitrariness of the fact and its mystery.",
+      "name" : "G K Chesterton"
+    },
+     {
+      "message" : "From the moment I picked your book up until I laid it down I was convulsed with laughter. Some day I intend reading it.",
+      "name" : "Groucho Marx"
+    },
+     {
+      "message" : "In the case of good books, the point is not to see how many of them you can get through, but how many can get through to you.",
+      "name" : "Mortimer Adler"
+    },
+     {
+      "message" : "No man can be called friendless when he has God and the companionship of good books.",
+      "name" : "Elizabeth Barrett Browning"
+    },
+     {
+      "message" : "A good book has no ending.",
+      "name" : "R D Cumming"
+    },
+     {
+      "message" : "The instruction we find in books is like fire. We fetch it from our neighbours, kindle it at home, communicate it to others, and it becomes the property of all.",
+      "name" : "Voltaire"
+    },
+     {
+      "message" : "Reading, after a certain age, diverts the mind too much from its creative pursuits. Any man who reads too much and uses his own brain too little falls into lazy habits of thinking.",
+      "name" : "Albert Einstein"
+    },
+     {
+      "message" : "Many books require no thought from those who read them, and for a very simple reason; they made no such demand upon those who wrote them.",
+      "name" : "Charles Caleb Colton"
+    },
+     {
+      "message" : "I still find each day too short for all the thoughts I want to think, all the walks I want to take, all the books I want to read, and all the friends I want to see.",
+      "name" : "John Burroughs"
+    },
+     {
+      "message" : "What we become depends on what we read after all the professors have finished with us. The greatest university of all is the collection of books.",
+      "name" : "Thomas Carlyle"
+    },
+     {
+      "message" : "The ideas I stand for are not mine. I borrowed them from Socrates. I swiped them from Chesterfield. I stole them from Jesus. And I put them in a book. If you don't like their rules whose would you use?",
+      "name" : "Dale Carnegie"
+    },
+     {
+      "message" : "Don't join the book burners. Do not think you are going to conceal thoughts by concealing evidence that they ever existed.",
+      "name" : "Dwight David Eisenhower"
+    },
+     {
+      "message" : "Never read a book that is not a year old.",
+      "name" : "Ralph Waldo Emerson"
+    },
+     {
+      "message" : "Every burned book or house enlightens the world; every suppressed or expunged word reverberates through the earth from side to side.",
+      "name" : "Ralph Waldo Emerson"
+    },
+     {
+      "message" : "I am sure of this, that by going much alone a man will get more of a noble courage in thought and word than from all the wisdom that is in books.",
+      "name" : "Ralph Waldo Emerson"
+    },
+     {
+      "message" : "Whenever you read a good book, it's like the author is right there, in the room, talking to you, which is why I don't like to read good books.",
+      "name" : "Jack Handey"
+    },
+     {
+      "message" : "If I have not read a book before, it is, for all intents and purposes, new to me whether it was printed yesterday or three hundred years ago.",
+      "name" : "William Hazlitt"
+    },
+     {
+      "message" : "A classic is a book which people praise and don't read.",
+      "name" : "Mark Twain"
+    },
+     {
+      "message" : "A good novel tells us the truth about its hero; but a bad novel tells us the truth about its author.",
+      "name" : "G K Chesterton"
+    },
+     {
+      "message" : "Reading, after a certain age, diverts the mind too much from its creative pursuits. Any man who reads too much and uses his own brain too little falls into lazy habits of thinking.",
+      "name" : "Albert Einstein"
+    },
+     {
+      "message" : "I find television very educating. Every time somebody turns on the set, I go into the other room and read a book.",
+      "name" : "Groucho Marx"
+    },
+     {
+      "message" : "Outside of a dog, a book is man's best friend. Inside of a dog it's too dark to read.",
+      "name" : "Groucho Marx"
+    },
+     {
+      "message" : "How many a man has dated a new era in his life from the reading of a book.",
+      "name" : "Henry David Thoreau"
+    },
+     {
+      "message" : "Where is human nature so weak as in the bookstore?",
+      "name" : "Henry Ward Beecher"
+    },
+     {
+      "message" : "People say that life is the thing, but I prefer reading.",
+      "name" : "Logan Pearsall Smith"
+    },
+     {
+      "message" : "Learn as much by writing as by reading.",
+      "name" : "Lord Acton"
+    },
+     {
+      "message" : "In the highest civilization, the book is still the highest delight. He who has once known its satisfactions is provided with a resource against calamity.",
+      "name" : "Ralph Waldo Emerson"
+    },
+     {
+      "message" : "Read not to contradict and confute?nor to find talk and discourse, but to weigh and consider.",
+      "name" : "Sir Francis Bacon"
+    },
+     {
+      "message" : "Live always in the best company when you read.",
+      "name" : "Sydney Smith"
+    },
+     {
+      "message" : "The multitude of books is making us ignorant.",
+      "name" : "Voltaire"
+    },
+     {
+      "message" : "Knowing I lov'd my books, he furnish'd me From mine own library with volumes that I prize above my dukedom.",
+      "name" : "William Shakespeare"
+    },
+     {
+      "message" : "To solve any problem, here are three questions to ask yourself: First, what could I do? Second, what could I read? And third, who could I ask?",
+      "name" : "Jim Rohn"
+    },
+     {
+      "message" : "Reading made Don Quixote a gentleman, but believing what he read made him mad.",
+      "name" : "George Bernard Shaw"
+    }
+    ]
+}

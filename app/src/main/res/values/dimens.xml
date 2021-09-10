@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="loading_indicator_size">6dp</dimen>
+    <dimen name="loading_indicator_margin">3dp</dimen>
+
+    <dimen name="author_image_size">58dp</dimen>
+
+    <dimen name="quote_icon_size">34dp</dimen>
+
+    <dimen name="list_card_layout_height">440dp</dimen>
+    <dimen name="list_card_elevation">8dp</dimen>
+    <dimen name="list_card_corner_radius">6dp</dimen>
+    <dimen name="bottom_layout_height">54dp</dimen>
+    <dimen name="bottom_layout_item_size">28dp</dimen>
+
+    <dimen name="bottom_quote_layout_card_size">44dp</dimen>
+
+    <dimen name="favorite_card_height">200dp</dimen>
+    <dimen name="favorite_card_corner_radius">6dp</dimen>
+    <dimen name="favorite_card_elevation">8dp</dimen>
+
+    <dimen name="ratings_star_size">34dp</dimen>
+</resources>

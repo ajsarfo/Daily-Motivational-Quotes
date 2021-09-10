@@ -1,0 +1,57 @@
+{
+  "title" :"Christmas",
+  "quotes" : [
+    {
+      "message" : "Christmas waves a magic wand over this world, and behold, everything is softer and more beautiful.",
+      "name" : "Norman Vincent Peale"
+    },
+     {
+      "message" : "Christmas is the season for kindling the fire of hospitality in the hall, the genial flame of charity in the heart.",
+      "name" : "Washington Irving"
+    },
+     {
+      "message" : "When we were children we were grateful to those who filled our stockings at Christmas time. Why are we not grateful to God for filling our stockings with legs?",
+      "name" : "G K Chesterton"
+    },
+     {
+      "message" : "Roses are reddish Violets are bluish If it weren't for Christmas We'd all be Jewish.",
+      "name" : "Benny Hill"
+    },
+     {
+      "message" : "Nothing's as mean as giving a little child something useful for Christmas.",
+      "name" : "Kin Hubbard"
+    },
+     {
+      "message" : "Christmas is not a time nor a season, but a state of mind. To cherish peace and goodwill, to be plenteous in mercy, is to have the real spirit of Christmas.",
+      "name" : "Calvin Coolidge"
+    },
+     {
+      "message" : "A good conscience is a continual Christmas.",
+      "name" : "Benjamin Franklin"
+    },
+     {
+      "message" : "Christmas is a season for kindling the fire for hospitality in the hall, the genial flame of charity in the heart.",
+      "name" : "Washington Irving"
+    },
+     {
+      "message" : "Christmas is a time when kids tell Santa what they want and adults pay for it. Deficits are when adults tell the government what they want - and their kids pay for it.",
+      "name" : "Richard Lamm"
+    },
+     {
+      "message" : "Mail your packages early so the post office can lose them in time for Christmas.",
+      "name" : "Johnny Carson"
+    },
+     {
+      "message" : "Next to a circus there ain't nothing that packs up and tears out faster than the Christmas spirit.",
+      "name" : "Kin Hubbard"
+    },
+     {
+      "message" : "Unless we make Christmas an occasion to share our blessings, all the snow in Alaska won't make it 'white'.",
+      "name" : "Bing Crosby"
+    },
+     {
+      "message" : "What I don't like about office Christmas parties is looking for a job the next day.",
+      "name" : 	"Phyllis Diller"
+    }
+    ]
+}

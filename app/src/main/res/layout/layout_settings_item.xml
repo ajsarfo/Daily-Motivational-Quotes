@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+        <variable
+            name="binding"
+            type="com.sarftec.dailymotivationalquotes.presentation.binding.SettingsItemBinding" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/selectableItemBackground"
+        android:clickable="true"
+        android:focusable="true"
+        android:onClick="@{() -> binding.onItem.invoke()}"
+        tools:background="@color/color_primary_variant">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/settings_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/raleway_semi_bold"
+            android:text="@{binding.title}"
+            android:textColor="@color/color_secondary"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Daily African Proverbs" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/settings_subtitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:fontFamily="@font/raleway_regular"
+            android:text="@{binding.subtitle}"
+            android:textColor="@color/color_primary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/settings_title"
+            app:layout_constraintTop_toBottomOf="@+id/settings_title"
+            tools:text="Get your Daily Dose of African Proverbs" />
+
+        <CheckBox
+            android:id="@+id/settings_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:checked="true"
+            android:checked="@{binding.checkEnabled}"
+            android:visibility="@{binding.checkVisibility}"
+            android:onClick="@{() -> binding.onChecked.invoke()}"
+            app:layout_constraintBottom_toBottomOf="@+id/settings_subtitle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/settings_title" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

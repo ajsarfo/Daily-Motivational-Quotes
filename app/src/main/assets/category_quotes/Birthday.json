@@ -1,0 +1,81 @@
+{
+  "title" : "Birthday",
+  "quotes" : [
+    {
+      "message" : "There is still no cure for the common birthday.",
+      "name" : "John Glenn"
+    },
+     {
+      "message" : "Middle age is the time when a man is always thinking that in a week or two he will feel as good as ever.",
+      "name" : "Don Marquis"
+    },
+     {
+      "message" : "Middle age is when your age starts to show around your middle.",
+      "name" : "Bob Hope"
+    },
+     {
+      "message" : "A diplomat is a man who always remembers a woman's birthday but never remembers her age.",
+      "name" : "Robert Lee Frost"
+    },
+     {
+      "message" : "The secret of staying young is to live honestly, eat slowly, and lie about your age.",
+      "name" : "Lucile Ball"
+    },
+     {
+      "message" : "With mirth and laughter let old wrinkles come.",
+      "name" : "William Shakespeare"
+    },
+     {
+      "message" : "And in the end, it's not the years in your life that count. It's the life in your years.",
+      "name" : "Abraham Lincoln"
+    },
+     {
+      "message" : "We know we're getting old when the only thing we want for our birthday is not to be reminded of it.",
+      "name" : "Unknown"
+    },
+     {
+      "message" : "A birthday is just the first day of another 365-day journey around the sun. Enjoy the trip.",
+      "name" : "Unknown"
+    },
+     {
+      "message" : "One to-day is worth two to-morrows.",
+      "name" : "Benjamin Franklin"
+    },
+     {
+      "message" : "I'm sixty years of age. That's 16 Celsius.",
+      "name" : "George Carlin"
+    },
+     {
+      "message" : "No wise man ever wished to be younger.",
+      "name" : "Jonathan Swift"
+    },
+     {
+      "message" : "Grow old along with me! The best is yet to be, the last of life, for which the first was made.",
+      "name" : "Robert Browning"
+    },
+     {
+      "message" : "I'm at an age when my back goes out more than I do.",
+      "name" : "Phyllis Diller"
+    },
+     {
+      "message" : "If we could be twice young and twice old we could correct all our mistakes.",
+      "name" : "Euripides"
+    },
+     {
+      "message" : "Time and Tide wait for no man, but time always stands still for a woman of thirty.",
+      "name" : "Robert Lee Frost"
+    },
+     {
+      "message" : "What most persons consider as virtue, after the age of 40 is simply a loss of energy.",
+      "name" : "Voltaire"
+    },
+     {
+      "message" : "Every man over forty is a scoundrel.",
+      "name" : "George Bernard Shaw"
+    },
+     {
+      "message" : "The years between fifty and seventy are the hardest. You are always being asked to do things, and yet you are not decrepit enough to turn them down.",
+      "name" : "T S Eliot"
+    }
+    ]
+}
