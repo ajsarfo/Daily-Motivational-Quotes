@@ -12,7 +12,9 @@ import com.sarftec.dailymotivationalquotes.R
 import com.sarftec.dailymotivationalquotes.databinding.FragmentSingleViewBinding
 import com.sarftec.dailymotivationalquotes.presentation.binding.SingleContentBinding
 import com.sarftec.dailymotivationalquotes.presentation.viewmodel.SingleViewModel
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class SingleContentFragment : BaseContentFragment() {
 
     private lateinit var binding: FragmentSingleViewBinding

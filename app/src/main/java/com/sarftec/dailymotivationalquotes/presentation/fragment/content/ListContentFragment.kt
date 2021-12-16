@@ -9,8 +9,10 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import com.sarftec.dailymotivationalquotes.databinding.FragmentListViewBinding
 import com.sarftec.dailymotivationalquotes.presentation.adapter.ViewListItemAdapter
 import com.sarftec.dailymotivationalquotes.presentation.tools.LoadingScreen
+import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.flow.collect
 
+@AndroidEntryPoint
 class ListContentFragment : BaseContentFragment() {
 
     private lateinit var binding: FragmentListViewBinding
