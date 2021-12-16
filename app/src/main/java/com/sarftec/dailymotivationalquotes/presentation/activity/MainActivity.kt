@@ -11,23 +11,20 @@ import androidx.drawerlayout.widget.DrawerLayout
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import androidx.lifecycle.lifecycleScope
-import com.appodeal.ads.Appodeal
-import com.appodeal.ads.Native
 import com.sarftec.dailymotivationalquotes.R
 import com.sarftec.dailymotivationalquotes.application.file.*
 import com.sarftec.dailymotivationalquotes.application.imagestore.toAssetUri
-import com.sarftec.dailymotivationalquotes.application.manager.InterstitialManager
 import com.sarftec.dailymotivationalquotes.databinding.ActivityMainBinding
 import com.sarftec.dailymotivationalquotes.databinding.LayoutRatingsDialogBinding
 import com.sarftec.dailymotivationalquotes.presentation.binding.MainBinding
 import com.sarftec.dailymotivationalquotes.presentation.fragment.main.AuthorFragment
 import com.sarftec.dailymotivationalquotes.presentation.fragment.main.CategoryFragment
 import com.sarftec.dailymotivationalquotes.presentation.listener.ActivityListener
+import com.sarftec.dailymotivationalquotes.presentation.loadImage
 import com.sarftec.dailymotivationalquotes.presentation.manager.RatingsManager
 import com.sarftec.dailymotivationalquotes.presentation.tools.RatingsDialog
 import dagger.hilt.android.AndroidEntryPoint
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.launch
 
 @AndroidEntryPoint
@@ -52,13 +49,6 @@ class MainActivity : BaseActivity(), ActivityListener {
         )
     }
 
-    private val interstitialManager by lazy {
-        InterstitialManager(
-            this,
-            networkManager,
-            listOf(1, 3, 4, 3)
-        )
-    }
 
     private var currentFragment: Fragment? = null
 
@@ -71,15 +61,6 @@ class MainActivity : BaseActivity(), ActivityListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        //Initialize Appodeal
-        Appodeal.setNativeAdType(Native.NativeAdType.NoVideo)
-        Appodeal.setAutoCache(Appodeal.NATIVE, false)
-        Appodeal.setBannerViewId(R.id.main_banner)
-        Appodeal.initialize(
-            this,
-            getString(R.string.appodeal_app_id),
-            Appodeal.BANNER_VIEW or Appodeal.INTERSTITIAL or Appodeal.NATIVE
-        )
         //Perform other setups
         setupToolbar()
         setUpDrawer()
@@ -90,11 +71,6 @@ class MainActivity : BaseActivity(), ActivityListener {
         lifecycleScope.launchWhenStarted {
             ratingsManager.init()
         }
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Appodeal.show(this, Appodeal.BANNER_VIEW)
     }
 
     override fun onBackPressed() {
@@ -138,13 +114,7 @@ class MainActivity : BaseActivity(), ActivityListener {
         val imageView = binding.navigationView.getHeaderView(0).findViewById<ImageView>(
             R.id.drawer_header_image
         )
-        lifecycleScope.launchWhenCreated {
-            imageLoader.loadImageAsync(
-                "cover.jpg".toAssetUri("app_images")
-            ).collect {
-                imageView.setImageBitmap(it)
-            }
-        }
+        imageView.loadImage("cover.jpg".toAssetUri("app_images"))
     }
 
     private fun setUpNavigationView() {
@@ -266,7 +236,7 @@ class MainActivity : BaseActivity(), ActivityListener {
     }
 
     override fun navigate(bundle: Bundle) {
-        interstitialManager.showAd {
+        interstitialManager?.showAd {
             navigateTo(ViewActivity::class.java, bundle = bundle)
         }
     }

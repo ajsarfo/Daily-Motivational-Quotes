@@ -9,14 +9,11 @@ import com.sarftec.dailymotivationalquotes.application.file.copy
 import com.sarftec.dailymotivationalquotes.application.file.share
 import com.sarftec.dailymotivationalquotes.application.file.toast
 import com.sarftec.dailymotivationalquotes.application.file.vibrate
-import com.sarftec.dailymotivationalquotes.application.imageloader.ImageHolder
+import com.sarftec.dailymotivationalquotes.application.imagestore.ImageHolder
 import com.sarftec.dailymotivationalquotes.presentation.bindable
 import com.sarftec.dailymotivationalquotes.presentation.fragment.BaseFragment
 import com.sarftec.dailymotivationalquotes.presentation.listener.ContentListener
 import com.sarftec.dailymotivationalquotes.presentation.model.ContentModel
-import kotlinx.coroutines.CancellationException
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.launch
 
 abstract class BaseContentBinding(
     protected var model: ContentModel.ListContentModel,
@@ -42,14 +39,7 @@ abstract class BaseContentBinding(
     }
 
     protected fun changeImage(uri: Uri) = dependency.apply {
-        coroutineScope.launch {
-            imageLoader.loadImageAsync(uri).collect { bitmap ->
-                bitmap?.let {
-                    backgroundImage = ImageHolder.ImageBitmap(it)
-                    throw CancellationException()
-                }
-            }
-        }
+        backgroundImage = ImageHolder.ImageUri(uri)
     }
 
     fun onCopy() {

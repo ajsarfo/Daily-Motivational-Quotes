@@ -58,7 +58,7 @@ class ViewListItemAdapter(
                 viewHolder.separatorItemBinding?.let {
                     it.separatorHolder.apply {
                         removeAllViews()
-                        addView(item.nativeAd, 0)
+                      //  addView(item.nativeAd, 0)
                     }
                     viewHolder.holder.apply {
                         removeAllViews()

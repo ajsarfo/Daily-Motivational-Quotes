@@ -14,14 +14,6 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <com.appodeal.ads.BannerView
-            android:id="@+id/favorite_list_banner"
-            android:layout_width="0dp"
-            android:layout_height="wrap_content"
-            android:visibility="gone"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
 
         <com.google.android.material.appbar.MaterialToolbar
             android:id="@+id/materialToolbar"
@@ -119,16 +111,17 @@
             app:layout_constraintTop_toBottomOf="@+id/materialToolbar"
             tools:visibility="visible" />
 
-        <com.appodeal.ads.BannerView
-            android:id="@id/main_banner"
-            android:layout_width="match_parent"
+        <LinearLayout
+            android:id="@+id/main_banner"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:visibility="gone"
-            tools:visibility="visible"
-            tools:layout_height="50dp"
-            tools:background="@color/teal_200"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:orientation="horizontal"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            tools:background="@color/teal_200"
+            tools:layout_editor_absoluteY="735dp"
+            tools:layout_height="50dp"
+            tools:visibility="visible" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 </layout>

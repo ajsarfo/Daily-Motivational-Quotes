@@ -1,5 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_favorite_list.xml" value="0.25" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_favorite_quote.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_main.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_settings.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_view.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/fragment_list_view.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/fragment_single_view.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_author_list.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_drawer_header.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_favorite_list_item.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_list_content_holder.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_loading.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_loading_screen.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_main_toolbar.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_ratings_dialog.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_recycler.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_separator_item.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_settings_item.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_view_list_item.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/layout_view_toolbar.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/notification_collapsed.xml" value="0.1802536231884058" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/notification_expanded.xml" value="0.1802536231884058" />
+      </map>
+    </option>
+  </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/build/classes" />
   </component>

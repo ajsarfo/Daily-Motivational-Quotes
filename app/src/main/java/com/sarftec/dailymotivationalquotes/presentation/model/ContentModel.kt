@@ -1,7 +1,5 @@
 package com.sarftec.dailymotivationalquotes.presentation.model
 
-import com.appodeal.ads.native_ad.views.NativeAdViewContentStream
-
 sealed class ContentModel(
     val id: Int
 ) {
@@ -17,6 +15,6 @@ sealed class ContentModel(
 
     class SeparatorContentModel(
         id: Int,
-        val nativeAd: NativeAdViewContentStream
+       // val nativeAd: NativeAdViewContentStream
     ) : ContentModel(id)
 }

@@ -49,7 +49,6 @@ class SplashActivity : BaseActivity() {
                 imageList.addAll(imageStore.authorImageUris())
                 imageList.addAll(imageStore.backgroundImageUris())
                 imageList.addAll(imageStore.iconImageUris(this@SplashActivity))
-                imageLoader.preloadImages(imageList)
             }
             (TimeUnit.SECONDS.toMillis(3) - timeSpent).let { if(it > 0) delay(it) }
             navigateTo(MainActivity::class.java, true)

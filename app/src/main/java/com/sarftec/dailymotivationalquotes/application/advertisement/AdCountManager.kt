@@ -1,4 +1,4 @@
-package com.sarftec.dailymotivationalquotes.application.manager
+package com.sarftec.dailymotivationalquotes.application.advertisement
 
 class AdCountManager(private val pattern: List<Int>) {
     private var patternIterator = 0

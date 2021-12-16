@@ -2,6 +2,10 @@ package com.sarftec.dailymotivationalquotes.application.imagestore
 
 import android.content.Context
 import android.net.Uri
+import android.widget.ImageView
+import com.bumptech.glide.Glide
+import com.bumptech.glide.load.engine.DiskCacheStrategy
+import com.sarftec.dailymotivationalquotes.R
 import dagger.hilt.android.qualifiers.ApplicationContext
 import java.util.*
 import javax.inject.Inject
@@ -9,7 +13,7 @@ import javax.inject.Singleton
 
 @Singleton
 class ImageStore @Inject constructor(
-    @ApplicationContext context: Context
+    @ApplicationContext private val context: Context
 ) {
 
     private val backgroundImages: Set<String> = context

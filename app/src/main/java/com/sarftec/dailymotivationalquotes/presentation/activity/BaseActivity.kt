@@ -9,9 +9,11 @@ import android.view.WindowInsetsController
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
 import androidx.lifecycle.lifecycleScope
+import com.google.android.gms.ads.AdRequest
+import com.sarftec.dailymotivationalquotes.application.advertisement.InterstitialManager
 import com.sarftec.dailymotivationalquotes.R
 import com.sarftec.dailymotivationalquotes.application.Dependency
-import com.sarftec.dailymotivationalquotes.application.imageloader.BitmapImageLoader
+import com.sarftec.dailymotivationalquotes.application.advertisement.AdCountManager
 import com.sarftec.dailymotivationalquotes.application.imagestore.ImageStore
 import com.sarftec.dailymotivationalquotes.application.manager.NetworkManager
 import com.sarftec.dailymotivationalquotes.application.repository.ApplicationRepository
@@ -20,7 +22,7 @@ import javax.inject.Inject
 
 @AndroidEntryPoint
 abstract class BaseActivity : AppCompatActivity() {
-    
+
     @Inject
     lateinit var repository: ApplicationRepository
 
@@ -28,13 +30,36 @@ abstract class BaseActivity : AppCompatActivity() {
     lateinit var imageStore: ImageStore
 
     @Inject
-    lateinit var imageLoader: BitmapImageLoader
-    
-    @Inject
     lateinit var networkManager: NetworkManager
 
     protected val dependency by lazy {
-        Dependency(this, lifecycleScope, imageStore, imageLoader)
+        Dependency(this, lifecycleScope, imageStore)
+    }
+
+    protected val adRequestBuilder: AdRequest by lazy {
+        AdRequest.Builder().build()
+    }
+
+    protected var interstitialManager: InterstitialManager? = null
+
+    protected open fun canShowInterstitial() : Boolean = true
+
+    protected open fun createAdCounterManager() : AdCountManager {
+        return AdCountManager(listOf(1, 4, 3))
+    }
+
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        //Load interstitial if required by extending activity
+        if(!canShowInterstitial()) return
+        interstitialManager = InterstitialManager(
+            this,
+            getString(R.string.admob_interstitial_id),
+            networkManager,
+            createAdCounterManager(),
+            adRequestBuilder
+        )
+        interstitialManager?.load()
     }
 
     //This is called by fragments also

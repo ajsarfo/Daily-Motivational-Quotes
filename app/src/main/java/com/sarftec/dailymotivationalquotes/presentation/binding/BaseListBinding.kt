@@ -7,15 +7,12 @@ import androidx.databinding.Bindable
 import com.sarftec.dailymotivationalquotes.BR
 import com.sarftec.dailymotivationalquotes.R
 import com.sarftec.dailymotivationalquotes.application.file.vibrate
-import com.sarftec.dailymotivationalquotes.application.imageloader.ImageHolder
+import com.sarftec.dailymotivationalquotes.application.imagestore.ImageHolder
 import com.sarftec.dailymotivationalquotes.presentation.*
 import com.sarftec.dailymotivationalquotes.presentation.adapter.MainBaseListAdapter
 import com.sarftec.dailymotivationalquotes.presentation.fragment.BaseFragment
 import com.sarftec.dailymotivationalquotes.presentation.model.MainModel
 import com.sarftec.dailymotivationalquotes.presentation.viewmodel.BaseListViewModel
-import kotlinx.coroutines.CancellationException
-import kotlinx.coroutines.flow.collect
-import kotlinx.coroutines.launch
 
 class BaseListBinding(
     private val dependency: BaseFragment.FragmentDependency,
@@ -23,7 +20,7 @@ class BaseListBinding(
     private val cache: MainBaseListAdapter.InitialColorCache,
     private val position: Int,
     val mainModel: MainModel
-) : BaseObservable() , BaseListViewModel.FavoriteUpdatable {
+) : BaseObservable(), BaseListViewModel.FavoriteUpdatable {
 
     @get:Bindable
     var image: ImageHolder by bindable(ImageHolder.Empty, BR.image)
@@ -42,19 +39,14 @@ class BaseListBinding(
 
     private fun setAuthorBackground(name: String) {
         dependency.apply {
-            coroutineScope.launch {
-                imageLoader.loadImageAsync(imageStore.authorImage(name)).collect { bitmap ->
-                    bitmap?.let {
-                        this@BaseListBinding.image = ImageHolder.ImageBitmap(it)
-                        throw CancellationException()
-                    }
-                }
-            }
+            this@BaseListBinding.image = ImageHolder.ImageUriLoading(
+                imageStore.authorImage(name)
+            )
         }
     }
 
-    private fun favoriteSizeVisibility() : Int {
-        return if(mainModel.favoriteSize > 0) View.VISIBLE else View.GONE
+    private fun favoriteSizeVisibility(): Int {
+        return if (mainModel.favoriteSize > 0) View.VISIBLE else View.GONE
     }
 
     private fun setCategoryBackground() {
@@ -67,7 +59,7 @@ class BaseListBinding(
             setCategoryBackground()
         } else {
             showInitial = View.GONE
-            image = ImageHolder.ImageDrawable(R.drawable.loading)
+            //image = ImageHolder.ImageDrawable(R.drawable.loading)
             setAuthorBackground(mainModel.name)
         }
 

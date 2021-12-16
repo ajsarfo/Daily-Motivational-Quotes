@@ -6,7 +6,6 @@ import androidx.activity.viewModels
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import androidx.paging.PagingData
-import com.appodeal.ads.Appodeal
 import com.sarftec.dailymotivationalquotes.R
 import com.sarftec.dailymotivationalquotes.application.file.vibrate
 import com.sarftec.dailymotivationalquotes.databinding.ActivityViewBinding
@@ -32,7 +31,6 @@ class ViewActivity : BaseActivity(), ContentListener {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        Appodeal.cache(this, Appodeal.NATIVE, 5)
         savedInstanceState ?: kotlin.run {
             viewModel.setBundle(intent.getBundleExtra(ACTIVITY_BUNDLE))
         }

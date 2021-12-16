@@ -2,7 +2,6 @@ package com.sarftec.dailymotivationalquotes.presentation.activity
 
 import android.os.Bundle
 import android.view.LayoutInflater
-import com.appodeal.ads.Appodeal
 import com.sarftec.dailymotivationalquotes.R
 import com.sarftec.dailymotivationalquotes.application.file.vibrate
 import com.sarftec.dailymotivationalquotes.databinding.ActivityFavoriteQuoteBinding
@@ -19,9 +18,6 @@ class FavoriteQuoteActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        //Show banner
-        Appodeal.setBannerViewId(R.id.activity_favorite_quote_banner)
-
         setUpToolbar()
         intent.getBundleExtra(ACTIVITY_BUNDLE)?.let { bundle ->
             val title = bundle.getString(FAVORITE_QUOTE_TITLE)
@@ -37,11 +33,6 @@ class FavoriteQuoteActivity : BaseActivity() {
                 binding.executePendingBindings()
             }
         }
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Appodeal.show(this, Appodeal.BANNER_BOTTOM)
     }
 
     fun setUpToolbar() {

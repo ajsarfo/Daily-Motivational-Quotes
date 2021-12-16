@@ -36,4 +36,7 @@
 
     <string name="drawer_header_message">Start your day with JOY</string>
     <string name="rate_app">Rate app</string>
+
+
+    <string name="admob_interstitial_id"></string>
 </resources>

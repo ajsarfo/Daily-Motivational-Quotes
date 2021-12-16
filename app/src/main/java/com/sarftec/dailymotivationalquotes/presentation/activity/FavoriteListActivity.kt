@@ -7,8 +7,6 @@ import androidx.activity.viewModels
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
-import com.appodeal.ads.Appodeal
-import com.sarftec.dailymotivationalquotes.R
 import com.sarftec.dailymotivationalquotes.application.Dependency
 import com.sarftec.dailymotivationalquotes.databinding.ActivityFavoriteListBinding
 import com.sarftec.dailymotivationalquotes.presentation.adapter.FavoriteListItemAdapter
@@ -47,8 +45,6 @@ class FavoriteListActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        //Show banner
-        Appodeal.setBannerViewId(R.id.main_banner)
 
         viewModel.fetch()
         binding.back.setOnClickListener {
@@ -76,10 +72,6 @@ class FavoriteListActivity : BaseActivity() {
         }
     }
 
-    override fun onResume() {
-        super.onResume()
-        Appodeal.show(this, Appodeal.BANNER_VIEW)
-    }
 
     private fun navigate(bundle: Bundle) {
         navigateTo(

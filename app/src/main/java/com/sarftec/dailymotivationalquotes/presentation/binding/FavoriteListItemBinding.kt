@@ -9,7 +9,7 @@ import com.sarftec.dailymotivationalquotes.application.file.copy
 import com.sarftec.dailymotivationalquotes.application.file.share
 import com.sarftec.dailymotivationalquotes.application.file.toast
 import com.sarftec.dailymotivationalquotes.application.file.vibrate
-import com.sarftec.dailymotivationalquotes.application.imageloader.ImageHolder
+import com.sarftec.dailymotivationalquotes.application.imagestore.ImageHolder
 import com.sarftec.dailymotivationalquotes.presentation.activity.BaseActivity
 import com.sarftec.dailymotivationalquotes.presentation.activity.FavoriteListActivity
 import com.sarftec.dailymotivationalquotes.presentation.bindable

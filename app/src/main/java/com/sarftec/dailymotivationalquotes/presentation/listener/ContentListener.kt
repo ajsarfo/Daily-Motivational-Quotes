@@ -5,6 +5,7 @@ import com.sarftec.dailymotivationalquotes.presentation.model.ContentModel
 import com.sarftec.dailymotivationalquotes.presentation.viewmodel.ListViewModel
 import kotlinx.coroutines.flow.Flow
 
+
 interface ContentListener {
     suspend fun getContentModels() : List<ContentModel.ListContentModel>?
     suspend fun getContentModelPagingFlow() : Flow<PagingData<ContentModel>>?

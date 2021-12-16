@@ -8,7 +8,6 @@ import android.view.animation.AccelerateDecelerateInterpolator
 import android.view.animation.AnimationUtils
 import androidx.fragment.app.viewModels
 import androidx.lifecycle.lifecycleScope
-import com.appodeal.ads.Appodeal
 import com.sarftec.dailymotivationalquotes.R
 import com.sarftec.dailymotivationalquotes.databinding.FragmentSingleViewBinding
 import com.sarftec.dailymotivationalquotes.presentation.binding.SingleContentBinding
@@ -33,8 +32,6 @@ class SingleContentFragment : BaseContentFragment() {
         savedInstanceState: Bundle?
     ): View {
         super.onCreateView(inflater, container, savedInstanceState)
-        //Show banner
-        Appodeal.setBannerViewId(R.id.main_banner)
         binding = FragmentSingleViewBinding.inflate(
             inflater,
             container,
@@ -66,11 +63,6 @@ class SingleContentFragment : BaseContentFragment() {
             binding.executePendingBindings()
         }
         return binding.root
-    }
-
-    override fun onResume() {
-        super.onResume()
-        Appodeal.show(requireActivity(), Appodeal.BANNER_VIEW)
     }
 
     override fun navigate(bundle: Bundle) {

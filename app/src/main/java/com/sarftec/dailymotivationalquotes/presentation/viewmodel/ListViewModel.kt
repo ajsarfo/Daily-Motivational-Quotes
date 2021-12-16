@@ -1,11 +1,9 @@
 package com.sarftec.dailymotivationalquotes.presentation.viewmodel
 
-import android.app.Activity
 import android.os.Bundle
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import androidx.paging.*
-import com.sarftec.dailymotivationalquotes.application.manager.NativeManager
 import com.sarftec.dailymotivationalquotes.application.manager.NetworkManager
 import com.sarftec.dailymotivationalquotes.application.repository.ApplicationRepository
 import com.sarftec.dailymotivationalquotes.presentation.*
@@ -13,7 +11,6 @@ import com.sarftec.dailymotivationalquotes.presentation.model.ContentModel
 import com.sarftec.dailymotivationalquotes.presentation.tools.ListWindowCreator
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.Flow
-import kotlinx.coroutines.flow.map
 import kotlinx.coroutines.launch
 import javax.inject.Inject
 
@@ -22,9 +19,6 @@ class ListViewModel @Inject constructor(
     private val repository: ApplicationRepository,
     private val networkManager: NetworkManager
 ) : ViewModel() {
-
-    private var separatorIdGenerator: Int = -1
-    private var nativeManager: NativeManager? = null
 
     private var contentModels: List<ContentModel.ListContentModel>? = null
 
@@ -83,6 +77,7 @@ class ListViewModel @Inject constructor(
             Pager(PagingConfig(10)) {
                 ListModelSource(ListWindowCreator(it, 10).createWindowedList())
             }.flow
+               /*
                 .map { pagingData ->
                     pagingData.insertSeparators { first: ContentModel?, second: ContentModel? ->
                             if (first == null || second == null || nativeManager == null) null
@@ -94,17 +89,8 @@ class ListViewModel @Inject constructor(
                             }
                         }
                 }.cachedIn(viewModelScope)
+                */
         }
-    }
-
-    fun createNativeManager(activity: Activity) {
-        nativeManager = NativeManager(activity, networkManager).apply {
-            preloadAds()
-        }
-    }
-
-    fun destroyNativeManager() {
-        nativeManager?.destroy()
     }
 
     private class ListModelSource(
