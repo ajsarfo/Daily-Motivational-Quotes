@@ -1,137 +1,66 @@
-{
-  "title" :"Character",
-  "quotes" : [
-    {
-      "message" : "To measure the man, measure his heart.",
-      "name" : "Audrey Hepburn"
-    },
-     {
-      "message" : "The true test of character is not how much we know how to do, but how we behave when we don't know what to do.",
-      "name" : "John Holt"
-    },
-     {
-      "message" : "Nearly all men can stand adversity, but if you want to test a man's character, give him power.",
-      "name" : "Abraham Lincoln"
-    },
-     {
-      "message" : "It's good to shut up sometimes.",
-      "name" : "Marcel Marceau"
-    },
-     {
-      "message" : "Character is like a tree and reputation like its shadow. The shadow is what we think of it; the tree is the real thing.",
-      "name" : "Abraham Lincoln"
-    },
-     {
-      "message" : "Nearly all men can stand adversity, but if you want to test a man's character, give him power.",
-      "name" : "Abraham Lincoln"
-    },
-     {
-      "message" : "You cannot dream yourself into a character; you must hammer and forge yourself one.",
-      "name" : "James A Froude"
-    },
-     {
-      "message" : "A person reveals his character by nothing so clearly as the joke he resents.",
-      "name" : "Georg Christoph Lichtenberg"
-    },
-     {
-      "message" : "Men show their characters in nothing more clearly than in what they think laughable.",
-      "name" : "Johann Wolfgang von Goethe"
-    },
-     {
-      "message" : "I take it as a man's duty to restrain himself.",
-      "name" : "Lois McMaster Bujold"
-    },
-     {
-      "message" : "It is in the character of very few men to honor without envy a friend who has prospered.",
-      "name" : "Eschylus"
-    },
-     {
-      "message" : "Hard work spotlights the character of people: some turn up their sleeves, some turn up their noses, and some don't turn up at all.",
-      "name" : "Sam Ewig"
-    },
-     {
-      "message" : "You can tell the character of every man when you see how he receives praise.",
-      "name" : "Seneca"
-    },
-     {
-      "message" : "Put more trust in nobility of character than in an oath.",
-      "name" : "Solon"
-    },
-     {
-      "message" : "Sow an act...reap a habit; Sow a habit...reap a character; Sow a character...reap a destiny.",
-      "name" : "George Dana Boardman"
-    },
-     {
-      "message" : "Of all the properties which belong to honorable men, not one is so highly prized as that of character.",
-      "name" : "Henry Clay"
-    },
-     {
-      "message" : "Good government generally begins in the family, and if the moral character of a people once degenerate, their political character must soon follow.",
-      "name" : "Elias Boudinot"
-    },
-     {
-      "message" : "Sports do not build character. They reveal it.",
-      "name" : "Matthew Campbell"
-    },
-     {
-      "message" : "History is the record of an encounter between character and circumstances.",
-      "name" : "Donald Creighton"
-    },
-     {
-      "message" : "Wealth stays with us a little moment if at all: only our characters are steadfast, not our gold.",
-      "name" : "Euripides"
-    },
-     {
-      "message" : "Thoughts lead on to purposes; purposes go forth in action; actions form habits; habits decide character; and character fixes our destiny.",
-      "name" : "Tryon Edwards"
-    },
-     {
-      "message" : "Weakness of attitude becomes weakness of character.",
-      "name" : "Albert Einstein"
-    },
-     {
-      "message" : "Talent develops in tranquillity, character in the full current of human life.",
-      "name" : "Johann Wolfgang von Goethe"
-    },
-     {
-      "message" : "It seems to me that perfection of means and confusion of goals seems to characterize our age.",
-      "name" : "Ralph Waldo Emerson"
-    },
-     {
-      "message" : "A signature always reveals a man's character - and sometimes even his name.",
-      "name" : "Evan Esar"
-    },
-     {
-      "message" : "It is part of the American character to consider nothing as desperate - to surmount every difficulty by resolution and contrivance.",
-      "name" : "Thomas Jefferson"
-    },
-     {
-      "message" : "To bear failure with courage is the best proof of character that anyone can give.",
-      "name" : "Somerset Maugham"
-    },
-     {
-      "message" : "Don't worry so much about your self-esteem. Worry more about your character. Integrity is its own reward?",
-      "name" : "Dr Laura Schlessinger"
-    },
-     {
-      "message" : "Leadership is a potent combination of strategy and character. But if you must be without one, be without the strategy.",
-      "name" : "Norman Schwarzkopf"
-    },
-     {
-      "message" : "Ability may get you to the top, but it takes character to keep you there.",
-      "name" : "John Wooden"
-    },
-     {
-      "message" : "Good breeding consists in concealing how much we think of ourselves and how little we think of the other person.",
-      "name" : "Benjamin Franklin"
-    },
-     {
-      "message" : "Our character is what we do when we think no one is looking.",
-      "name" : "Jackson Brown Jr"
-    },
-     {
-      "message" : "The average dog is a nicer person than the average person.",
-      "name" : "Andy Rooney"
-    }
-    ]
-}
+To measure the man, measure his heart.
+Audrey Hepburn
+The true test of character is not how much we know how to do, but how we behave when we don't know what to do.
+John Holt
+Nearly all men can stand adversity, but if you want to test a man's character, give him power.
+Abraham Lincoln
+It's good to shut up sometimes.
+Marcel Marceau
+Character is like a tree and reputation like its shadow. The shadow is what we think of it; the tree is the real thing.
+Abraham Lincoln
+Nearly all men can stand adversity, but if you want to test a man's character, give him power.
+Abraham Lincoln
+You cannot dream yourself into a character; you must hammer and forge yourself one.
+James A Froude
+A person reveals his character by nothing so clearly as the joke he resents.
+Georg Christoph Lichtenberg
+Men show their characters in nothing more clearly than in what they think laughable.
+Johann Wolfgang von Goethe
+I take it as a man's duty to restrain himself.
+Lois McMaster Bujold
+It is in the character of very few men to honor without envy a friend who has prospered.
+Eschylus
+Hard work spotlights the character of people: some turn up their sleeves, some turn up their noses, and some don't turn up at all.
+Sam Ewig
+You can tell the character of every man when you see how he receives praise.
+Seneca
+Put more trust in nobility of character than in an oath.
+Solon
+Sow an act...reap a habit; Sow a habit...reap a character; Sow a character...reap a destiny.
+George Dana Boardman
+Of all the properties which belong to honorable men, not one is so highly prized as that of character.
+Henry Clay
+Good government generally begins in the family, and if the moral character of a people once degenerate, their political character must soon follow.
+Elias Boudinot
+Sports do not build character. They reveal it.
+Matthew Campbell
+History is the record of an encounter between character and circumstances.
+Donald Creighton
+Wealth stays with us a little moment if at all: only our characters are steadfast, not our gold.
+Euripides
+Thoughts lead on to purposes; purposes go forth in action; actions form habits; habits decide character; and character fixes our destiny.
+Tryon Edwards
+Weakness of attitude becomes weakness of character.
+Albert Einstein
+Talent develops in tranquillity, character in the full current of human life.
+Johann Wolfgang von Goethe
+It seems to me that perfection of means and confusion of goals seems to characterize our age.
+Ralph Waldo Emerson
+A signature always reveals a man's character - and sometimes even his name.
+Evan Esar
+It is part of the American character to consider nothing as desperate - to surmount every difficulty by resolution and contrivance.
+Thomas Jefferson
+To bear failure with courage is the best proof of character that anyone can give.
+Somerset Maugham
+Don't worry so much about your self-esteem. Worry more about your character. Integrity is its own reward?
+Dr Laura Schlessinger
+Leadership is a potent combination of strategy and character. But if you must be without one, be without the strategy.
+Norman Schwarzkopf
+Ability may get you to the top, but it takes character to keep you there.
+John Wooden
+Good breeding consists in concealing how much we think of ourselves and how little we think of the other person.
+Benjamin Franklin
+Our character is what we do when we think no one is looking.
+Jackson Brown Jr
+The average dog is a nicer person than the average person.
+Andy Rooney

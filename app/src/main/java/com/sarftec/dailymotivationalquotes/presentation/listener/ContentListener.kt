@@ -11,4 +11,5 @@ interface ContentListener {
     suspend fun getContentModelPagingFlow() : Flow<PagingData<ContentModel>>?
     fun getListViewModel() : ListViewModel
     fun save(contentModel: ContentModel)
+    fun showRewardVideo(callback: () -> Unit)
 }

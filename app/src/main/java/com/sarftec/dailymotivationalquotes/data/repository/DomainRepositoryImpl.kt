@@ -4,15 +4,12 @@ import android.content.Context
 import com.sarftec.dailymotivationalquotes.OneOf
 import com.sarftec.dailymotivationalquotes.data.AUTHOR_QUOTES_FOLDER
 import com.sarftec.dailymotivationalquotes.data.CATEGORY_QUOTES_FOLDER
-import com.sarftec.dailymotivationalquotes.data.json.JsonAuthorQuote
 import com.sarftec.dailymotivationalquotes.domain.model.author.Author
 import com.sarftec.dailymotivationalquotes.domain.model.author.AuthorQuote
 import com.sarftec.dailymotivationalquotes.domain.model.category.Category
 import com.sarftec.dailymotivationalquotes.domain.model.category.CategoryQuote
 import com.sarftec.dailymotivationalquotes.domain.repository.DomainRepository
 import dagger.hilt.android.qualifiers.ApplicationContext
-import kotlinx.serialization.decodeFromString
-import kotlinx.serialization.json.Json
 import java.io.InputStream
 import java.util.*
 import javax.inject.Inject

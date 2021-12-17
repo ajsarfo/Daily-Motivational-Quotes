@@ -7,7 +7,9 @@ import androidx.activity.viewModels
 import androidx.lifecycle.LifecycleOwner
 import androidx.lifecycle.lifecycleScope
 import androidx.recyclerview.widget.LinearLayoutManager
+import com.sarftec.dailymotivationalquotes.R
 import com.sarftec.dailymotivationalquotes.application.Dependency
+import com.sarftec.dailymotivationalquotes.application.advertisement.BannerManager
 import com.sarftec.dailymotivationalquotes.databinding.ActivityFavoriteListBinding
 import com.sarftec.dailymotivationalquotes.presentation.adapter.FavoriteListItemAdapter
 import com.sarftec.dailymotivationalquotes.presentation.binding.FavoriteBinding
@@ -45,7 +47,12 @@ class FavoriteListActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-
+        /*************** Admob Configuration ********************/
+        BannerManager(this, adRequestBuilder).attachBannerAd(
+            getString(R.string.admob_banner_favorite_list),
+            binding.mainBanner
+        )
+        /**********************************************************/
         viewModel.fetch()
         binding.back.setOnClickListener {
             onBackPressed()

@@ -3,10 +3,12 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_about.xml" value="0.23052536231884058" />
         <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_favorite_list.xml" value="0.25" />
         <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_favorite_quote.xml" value="0.13722826086956522" />
-        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_main.xml" value="0.13722826086956522" />
-        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_settings.xml" value="0.13722826086956522" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_main.xml" value="0.23052536231884058" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_settings.xml" value="0.21" />
+        <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_splash.xml" value="0.23052536231884058" />
         <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/activity_view.xml" value="0.13722826086956522" />
         <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/fragment_list_view.xml" value="0.13722826086956522" />
         <entry key="..\:/Users/Sarfo/StudioProjects/Daily-Motivational-Quotes/app/src/main/res/layout/fragment_single_view.xml" value="0.13722826086956522" />

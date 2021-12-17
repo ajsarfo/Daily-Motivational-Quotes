@@ -1,169 +1,82 @@
-{
-  "title" : "Beauty",
-  "quotes" : [
-    {
-      "message" : "Though we travel the world over to find the beautiful, we must carry it with us or we find it not",
-      "name" : "Ralph Waldo Emerson"
-    },
-    {
-      "message" : "The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.",
-      "name" : "Helen Keller"
-    },
-    {
-      "message" : "The definition of a beautiful woman is one who loves me.",
-      "name" : "Sloan Wilson"
-    },
-    {
-      "message" : "There is nothing that makes its way more directly to the soul than beauty.",
-      "name" : "Joseph Addison"
-    },
-    {
-      "message" : "You can only perceive real beauty in a person as they get older.",
-      "name" : "Anouk Aim"
-    },
-    {
-      "message" : "Everything beautiful has its moment and then passes away.",
-      "name" : "Cernuda y Bidon"
-    },
-    {
-      "message" : "Everything has beauty, but not everyone sees it.",
-      "name" : "Confucius"
-    },
-    {
-      "message" : "Heat cannot be separated from fire, or beauty from The Eternal.",
-      "name" : "Dante"
-    },
-    {
-      "message" : "Cheerfulness and contentment are great beautifiers and are famous preservers of youthful looks.",
-      "name" : "Charles Dickens"
-    },
-    {
-      "message" : "[The lover says:] How beautiful you are, now that you love me.",
-      "name" : "Marlene Dietrich"
-    },
-    {
-      "message" : "I love quotations because it is a joy to find thoughts one might have, beautifully expressed with much authority by someone recognized wiser than oneself.",
-      "name" : "Marlene Dietrich"
-    },
-    {
-      "message" : "Whatever you may look like, marry a man your own age -- as your beauty fades, so will his eyesight.",
-      "name" : "Phyllis Diller"
-    },
-    {
-      "message" : "Love built on beauty, soon as beauty, dies.",
-      "name" : "John Donne"
-    },
-    {
-      "message" : "The most beautiful thing we can experience is the mysterious. It is the source of all true art and all science. He to whom this emotion is a stranger, who can no longer pause to wonder and stand rapt in awe, is as good as dead: his eyes are closed.",
-      "name" : "Albert Einstein"
-    },
-    {
-      "message" : "The pursuit of truth and beauty is a sphere of activity in which we are permitted to remain children all our lives.",
-      "name" : "Albert Einstein"
-    },
-    {
-      "message" : "One man's justice is another's injustice; one man's beauty another's ugliness; one man's wisdom another's folly.",
-      "name" : "Ralph Waldo Emerson"
-    },
-    {
-      "message" : "We find delight in the beauty and happiness of children that makes the heart too big for the body.",
-      "name" : "Ralph Waldo Emerson"
-    },
-    {
-      "message" : "Truth is beautiful, without a doubt. But so are lies.",
-      "name" : "Ralph Waldo Emerson"
-    },
-    {
-      "message" : "It is one of the beautiful compensations of life that no man can sincerely try to help another without helping himself.",
-      "name" : "Ralph Waldo Emerson"
-    },
-    {
-      "message" : "Here's a difference between beauty and charm. A beautiful woman is one I notice. A charming woman is one who notices me.",
-      "name" : "John Erskine"
-    },
-    {
-      "message" : "Think of all the beauty still left around you and be happy.",
-      "name" : "Anne Frank"
-    },
-    {
-      "message" : "If Jack's in love, he's no judge of Jill's beauty.",
-      "name" : "Benjamin Franklin"
-    },
-    {
-      "message" : "Keep your faith in all beautiful things; in the sun when it is hidden, in the Spring when it is gone.",
-      "name" : "Roy R. Gilson"
-    },
-    {
-      "message" : "Do you love me because I'm beautiful, or am I am beautiful because you love me?",
-      "name" : "Oscar Hammerstein"
-    },
-    {
-      "message" : "He contemplation of truth and beauty is the proper object for which we were created, which calls forth the most intense desires of the soul, and of which it never tires.",
-      "name" : "William Hazlitt"
-    },
-    {
-      "message" : "What the imagination seizes as beauty must be truth.",
-      "name" : "John Keats"
-    },
-    {
-      "message" : "All God's children are not beautiful. Most of God's children are, in fact, barely presentable.",
-      "name" : "Fran Lebowitz"
-    },
-    {
-      "message" : "One cannot collect all the beautiful shells on the beach.",
-      "name" : "Anne Spencer Morrow Lindbergh"
-    },
-    {
-      "message" : "Every man feels instinctively that all the beautiful sentiments in the world weigh less than a single lovely action.",
-      "name" : "James Russell Lowell"
-    },
-    {
-      "message" : "Develop an interest in life as you see it; the people, things, literature, music-the world is so rich, simply throbbing with rich treasures, beautiful souls and interesting people. Forget yourself.",
-      "name" : "Henry Miller"
-    },
-    {
-      "message" : "Riches, like glory or heath, have no more beauty or pleasure than their possessor is pleased to lend them.",
-      "name" : "Michel Eyquem de Montaigne"
-    },
-    {
-      "message" : "In every man's heart there is a secret nerve that answers to the vibration of beauty.",
-      "name" : "Christopher Darlington Morley"
-    },
-    {
-      "message" : "To holy people the very name of Jesus is a name to feed upon, a name to transport. His name can raise the dead and transfigure and beautify the living.",
-      "name" : "ohn Henry Newman"
-    },
-    {
-      "message" : "Life has loveliness to sell, All beautiful and splendid things, Blue waves whitened on a cliff, Soaring fire that sways and sings,And children's faces looking up,Holding wonder like a cup.",
-      "name" : "Sara Teasdale"
-    },
-    {
-      "message" : "Everytime you smile at someone, it is an action of love, a gift to that person, a beautiful thing.",
-      "name" : "Mother Teresa"
-    },
-    {
-      "message" : "The longer I live the more beautiful life becomes.",
-      "name" : "Frank Lloyd Wright"
-    },
-    {
-      "message" : "Rarely do great beauty and great virtue dwell together.",
-      "name" : "Petrarch"
-    },
-    {
-      "message" : "There is no excellent beauty that hath not some strangeness in the proportion.",
-      "name" : "Sir Francis Bacon"
-    },
-    {
-      "message" : "The most beautiful thing we can experience is the mysterious. It is the source of all true art and science.",
-      "name" : "Albert Einstein"
-    },
-    {
-      "message" : "Everytime you smile at someone, it is an action of love, a gift to that person, a beautiful thing.",
-      "name" : "Mother Teresa"
-    },
-    {
-      "message" : "I've learned ... that a smile is an inexpensive way to improve your looks.",
-      "name" : "Andy Rooney"
-    }
-    ]
-}
+Though we travel the world over to find the beautiful, we must carry it with us or we find it not
+Ralph Waldo Emerson
+The best and most beautiful things in the world cannot be seen or even touched - they must be felt with the heart.
+Helen Keller
+The definition of a beautiful woman is one who loves me.
+Sloan Wilson
+There is nothing that makes its way more directly to the soul than beauty.
+Joseph Addison
+You can only perceive real beauty in a person as they get older.
+Anouk Aim
+Everything beautiful has its moment and then passes away.
+Cernuda y Bidon
+Everything has beauty, but not everyone sees it.
+Confucius
+Heat cannot be separated from fire, or beauty from The Eternal.
+Dante
+Cheerfulness and contentment are great beautifiers and are famous preservers of youthful looks.
+Charles Dickens
+[The lover says:] How beautiful you are, now that you love me.
+Marlene Dietrich
+I love quotations because it is a joy to find thoughts one might have, beautifully expressed with much authority by someone recognized wiser than oneself.
+Marlene Dietrich
+Whatever you may look like, marry a man your own age -- as your beauty fades, so will his eyesight.
+Phyllis Diller
+Love built on beauty, soon as beauty, dies.
+John Donne
+The most beautiful thing we can experience is the mysterious. It is the source of all true art and all science. He to whom this emotion is a stranger, who can no longer pause to wonder and stand rapt in awe, is as good as dead: his eyes are closed.
+Albert Einstein
+The pursuit of truth and beauty is a sphere of activity in which we are permitted to remain children all our lives.
+Albert Einstein
+One man's justice is another's injustice; one man's beauty another's ugliness; one man's wisdom another's folly.
+Ralph Waldo Emerson
+We find delight in the beauty and happiness of children that makes the heart too big for the body.
+Ralph Waldo Emerson
+Truth is beautiful, without a doubt. But so are lies.
+Ralph Waldo Emerson
+It is one of the beautiful compensations of life that no man can sincerely try to help another without helping himself.
+Ralph Waldo Emerson
+Here's a difference between beauty and charm. A beautiful woman is one I notice. A charming woman is one who notices me.
+John Erskine
+Think of all the beauty still left around you and be happy.
+Anne Frank
+If Jack's in love, he's no judge of Jill's beauty.
+Benjamin Franklin
+Keep your faith in all beautiful things; in the sun when it is hidden, in the Spring when it is gone.
+Roy R. Gilson
+Do you love me because I'm beautiful, or am I am beautiful because you love me?
+Oscar Hammerstein
+He contemplation of truth and beauty is the proper object for which we were created, which calls forth the most intense desires of the soul, and of which it never tires.
+William Hazlitt
+What the imagination seizes as beauty must be truth.
+John Keats
+All God's children are not beautiful. Most of God's children are, in fact, barely presentable.
+Fran Lebowitz
+One cannot collect all the beautiful shells on the beach.
+Anne Spencer Morrow Lindbergh
+Every man feels instinctively that all the beautiful sentiments in the world weigh less than a single lovely action.
+James Russell Lowell
+Develop an interest in life as you see it; the people, things, literature, music-the world is so rich, simply throbbing with rich treasures, beautiful souls and interesting people. Forget yourself.
+Henry Miller
+Riches, like glory or heath, have no more beauty or pleasure than their possessor is pleased to lend them.
+Michel Eyquem de Montaigne
+In every man's heart there is a secret nerve that answers to the vibration of beauty.
+Christopher Darlington Morley
+To holy people the very name of Jesus is a name to feed upon, a name to transport. His name can raise the dead and transfigure and beautify the living.
+ohn Henry Newman
+Life has loveliness to sell, All beautiful and splendid things, Blue waves whitened on a cliff, Soaring fire that sways and sings,And children's faces looking up,Holding wonder like a cup.
+Sara Teasdale
+Everytime you smile at someone, it is an action of love, a gift to that person, a beautiful thing.
+Mother Teresa
+The longer I live the more beautiful life becomes.
+Frank Lloyd Wright
+Rarely do great beauty and great virtue dwell together.
+Petrarch
+There is no excellent beauty that hath not some strangeness in the proportion.
+Sir Francis Bacon
+The most beautiful thing we can experience is the mysterious. It is the source of all true art and science.
+Albert Einstein
+Everytime you smile at someone, it is an action of love, a gift to that person, a beautiful thing.
+Mother Teresa
+I've learned ... that a smile is an inexpensive way to improve your looks.
+Andy Rooney

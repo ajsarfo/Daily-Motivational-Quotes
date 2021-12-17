@@ -55,7 +55,9 @@ abstract class BaseContentBinding(
     fun onShare() {
         dependency.apply {
             coroutineScope.vibrate(context)
-            context.share("\"${model.title}\"\n\n_${model.subtitle}", "Share")
+            contentListener.showRewardVideo {
+                context.share("\"${model.title}\"\n\n_${model.subtitle}", "Share")
+            }
         }
     }
 

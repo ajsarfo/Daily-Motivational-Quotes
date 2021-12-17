@@ -5,6 +5,8 @@ import android.view.LayoutInflater
 import android.view.View
 import androidx.lifecycle.lifecycleScope
 import com.google.android.material.timepicker.MaterialTimePicker
+import com.sarftec.dailymotivationalquotes.R
+import com.sarftec.dailymotivationalquotes.application.advertisement.BannerManager
 import com.sarftec.dailymotivationalquotes.application.file.*
 import com.sarftec.dailymotivationalquotes.databinding.ActivitySettingsBinding
 import com.sarftec.dailymotivationalquotes.presentation.binding.SettingsItemBinding
@@ -27,9 +29,19 @@ class SettingsActivity : BaseActivity() {
         )
     }
 
+    override fun canShowInterstitial(): Boolean {
+        return false
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        /*************** Admob Configuration ********************/
+        BannerManager(this, adRequestBuilder).attachBannerAd(
+            getString(R.string.admob_banner_settings),
+            binding.mainBanner
+        )
+        /**********************************************************/
         binding.back.setOnClickListener {
             dependency.coroutineScope.vibrate(this)
             onBackPressed()

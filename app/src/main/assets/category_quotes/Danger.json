@@ -1,201 +1,98 @@
-{
-  "title": "Danger",
-  "quotes": [
-    {
-      "message": "Considering how dangerous everything is, nothing is really very frightening.",
-      "name": "Gertrude Stein"
-    },
-    {
-      "message": "We hope all danger may be overcome; but to conclude that no danger may ever arise would itself be extremely dangerous.",
-      "name": "Abraham Lincoln"
-    },
-    {
-      "message": "The great danger for family life, in the midst of any society whose idols are pleasure, comfort and independence, lies in the fact that people close their hearts and become selfish.",
-      "name": "Pope John Paul II"
-    },
-    {
-      "message": "Danger came in different packages, at different points in a lifetime.",
-      "name": "Jodi Picoult"
-    },
-    {
-      "message": "For danger levels man and brute And all are fellows in their need.",
-      "name": "John Dryden"
-    },
-    {
-      "message": "In danger there is great power.",
-      "name": "Agnes Whistling Elk"
-    },
-    {
-      "message": "There is danger in everything that we do.",
-      "name": "Laura Huxley"
-    },
-    {
-      "message": "The danger of prosperity is that it encourages a false independence.",
-      "name": "William Barclay"
-    },
-    {
-      "message": "Everything is danger, but we pretend that it's not.",
-      "name": "Howard Rheingold"
-    },
-    {
-      "message": "Our anger could become a force of deliverance.",
-      "name": "Sunday Adelaja"
-    },
-    {
-      "message": "Danger will chase her and she will always greet it with a smile.",
-      "name": "R.M Drake"
-    },
-    {
-      "message": "Danger gleams like sunshine to a brave man's eyes.",
-      "name": "Euripides"
-    },
-    {
-      "message": "There is danger when a man throws his tongue into high gear before he gets his brain a-going.",
-      "name": "C. C. Phelps"
-    },
-    {
-      "message": "Danger â€” if you meet it promptly and without flinching â€” you will reduce the danger by half. Never run away from anything.",
-      "name": "Winston Churchill"
-    },
-    {
-      "message": "The danger of having too close deadlines. It could lead you to just accept an avenue that's not quite good enough.",
-      "name": "Judith Weir"
-    },
-    {
-      "message": "Danger confronted properly is not something a man must fear.",
-      "name": "Tom Clancy"
-    },
-    {
-      "message": "Danger, the spur of all great minds.",
-      "name": "George Chapman"
-    },
-    {
-      "message": "Your most dangerous competitors are those that are most like you.",
-      "name": "Bruce Henderson"
-    },
-    {
-      "message": "Danger is when you are split three ways: Your soul goes one way, your mind goes another way and your body goes yet another way.",
-      "name": "Yogi Bhajan"
-    },
-    {
-      "message": "The danger is, you have a formula and you just repeat it.",
-      "name": "Martin Parr"
-    },
-    {
-      "message": "Danger is a very rare commodity in these times, monopolized by intelligence agencies and stuntmen.",
-      "name": "William S Burroughs"
-    },
-    {
-      "message": "The greatest danger occurs at the moment of victory.",
-      "name": "Napoleon Bonaparte"
-    },
-    {
-      "message": "The dangers of life are infinite, and among them is safety.",
-      "name": "Johann Wolfgang von Goethe"
-    },
-    {
-      "message": "Avoiding danger is no safer in the long run than outright exposure. The fearful are caught as often as the bold.",
-      "name": "Helen Keller"
-    },
-    {
-      "message": "The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.",
-      "name": "Michelangelo Buonarroti"
-    },
-    {
-      "message": "There is a danger in being persuaded before one understands.",
-      "name": "Thomas F. Wilson"
-    },
-    {
-      "message": "Withough danger you cannot go beyond danger.",
-      "name": "George Herbert"
-    },
-    {
-      "message": "When danger or pain press too nearly, they are incapable of giving any delight, and are simply terrible; but at certain distances and with certain modifications, they may be, and they are delightful.",
-      "name": "David Shields"
-    },
-    {
-      "message": "Be aware of danger-but recognize the opportunity.",
-      "name": "John F. Kennedy"
-    },
-    {
-      "message": "Everything is dangerous, my dear fellow. If it wasn't so, life wouldn't be worth living.",
-      "name": "Oscar Wilde"
-    },
-    {
-      "message": "A common danger unites even the bitterest enemies.",
-      "name": "Aristotle"
-    },
-    {
-      "message": "Your anger against every form of insult and oppression must be out of love.",
-      "name": "Sunday Adelaja"
-    },
-    {
-      "message": "The danger is in what we codify, commodify, and exploit.",
-      "name": "Terry Tempest Williams"
-    },
-    {
-      "message": "Danger will wink on opportunity.",
-      "name": "John Milton"
-    },
-    {
-      "message": "Any danger spot is tenable if men, brave men, will make it so",
-      "name": "John F Kennedy"
-    },
-    {
-      "message": "That danger which is despised arrives the soonest.",
-      "name": "Decimus Laberius"
-    },
-    {
-      "message": "Some dangers are to be courted--courted and braved as a coy mistress is to be wooed, with all the more vigor as the day makes against us.",
-      "name": "Christian Nestell Bovee"
-    },
-    {
-      "message": "Nobody heeds danger when they're making money.",
-      "name": "James Cook"
-    },
-    {
-      "message": "Dangers bring fears, and fears more dangers bring.",
-      "name": "Richard Baxter"
-    },
-    {
-      "message": "Danger comes on us more speedily when we treat it with contempt.",
-      "name": "Publilius Syrus"
-    },
-    {
-      "message": "The danger is not lest the soul should doubt whether there is any bread, but lest, by a lie, it should persuade itself that it is not hungry.",
-      "name": "Simone Weil"
-    },
-    {
-      "message": "There's danger in glorifying negative emotions as fuel for art.",
-      "name": "Tavi Gevinson"
-    },
-    {
-      "message": "Danger hides in beauty and beauty in danger.",
-      "name": "Belva Plain"
-    },
-    {
-      "message": "There is danger in reckless change, but greater danger in blind conservatism.",
-      "name": "Henry George"
-    },
-    {
-      "message": "It is dangerous to exist in the world. To exist is to be threatened. We must live with threats.",
-      "name": "Adam Levin"
-    },
-    {
-      "message": "Danger, if met head on, can be nearly halved.",
-      "name": "Winston Churchill"
-    },
-    {
-      "message": "Fear of danger is ten thousand times more terrifying than danger itself.",
-      "name": "Daniel Defoe"
-    },
-    {
-      "message": "Danger is ever-present in life, more for some than others.",
-      "name": "T.I."
-    },
-    {
-      "message": "Danger is like wine, it goes to your head.",
-      "name": "Madame De Stael"
-    }
-  ]
-}
+Considering how dangerous everything is, nothing is really very frightening.
+Gertrude Stein
+We hope all danger may be overcome; but to conclude that no danger may ever arise would itself be extremely dangerous.
+Abraham Lincoln
+The great danger for family life, in the midst of any society whose idols are pleasure, comfort and independence, lies in the fact that people close their hearts and become selfish.
+Pope John Paul II
+Danger came in different packages, at different points in a lifetime.
+Jodi Picoult
+For danger levels man and brute And all are fellows in their need.
+John Dryden
+In danger there is great power.
+Agnes Whistling Elk
+There is danger in everything that we do.
+Laura Huxley
+The danger of prosperity is that it encourages a false independence.
+William Barclay
+Everything is danger, but we pretend that it's not.
+Howard Rheingold
+Our anger could become a force of deliverance.
+Sunday Adelaja
+Danger will chase her and she will always greet it with a smile.
+R.M Drake
+Danger gleams like sunshine to a brave man's eyes.
+Euripides
+There is danger when a man throws his tongue into high gear before he gets his brain a-going.
+C. C. Phelps
+Danger â€” if you meet it promptly and without flinching â€” you will reduce the danger by half. Never run away from anything.
+Winston Churchill
+The danger of having too close deadlines. It could lead you to just accept an avenue that's not quite good enough.
+Judith Weir
+Danger confronted properly is not something a man must fear.
+Tom Clancy
+Danger, the spur of all great minds.
+George Chapman
+Your most dangerous competitors are those that are most like you.
+Bruce Henderson
+Danger is when you are split three ways: Your soul goes one way, your mind goes another way and your body goes yet another way.
+Yogi Bhajan
+The danger is, you have a formula and you just repeat it.
+Martin Parr
+Danger is a very rare commodity in these times, monopolized by intelligence agencies and stuntmen.
+William S Burroughs
+The greatest danger occurs at the moment of victory.
+Napoleon Bonaparte
+The dangers of life are infinite, and among them is safety.
+Johann Wolfgang von Goethe
+Avoiding danger is no safer in the long run than outright exposure. The fearful are caught as often as the bold.
+Helen Keller
+The greatest danger for most of us is not that our aim is too high and we miss it, but that it is too low and we reach it.
+Michelangelo Buonarroti
+There is a danger in being persuaded before one understands.
+Thomas F. Wilson
+Withough danger you cannot go beyond danger.
+George Herbert
+When danger or pain press too nearly, they are incapable of giving any delight, and are simply terrible; but at certain distances and with certain modifications, they may be, and they are delightful.
+David Shields
+Be aware of danger-but recognize the opportunity.
+John F. Kennedy
+Everything is dangerous, my dear fellow. If it wasn't so, life wouldn't be worth living.
+Oscar Wilde
+A common danger unites even the bitterest enemies.
+Aristotle
+Your anger against every form of insult and oppression must be out of love.
+Sunday Adelaja
+The danger is in what we codify, commodify, and exploit.
+Terry Tempest Williams
+Danger will wink on opportunity.
+John Milton
+Any danger spot is tenable if men, brave men, will make it so
+John F Kennedy
+That danger which is despised arrives the soonest.
+Decimus Laberius
+Some dangers are to be courted--courted and braved as a coy mistress is to be wooed, with all the more vigor as the day makes against us.
+Christian Nestell Bovee
+Nobody heeds danger when they're making money.
+James Cook
+Dangers bring fears, and fears more dangers bring.
+Richard Baxter
+Danger comes on us more speedily when we treat it with contempt.
+Publilius Syrus
+The danger is not lest the soul should doubt whether there is any bread, but lest, by a lie, it should persuade itself that it is not hungry.
+Simone Weil
+There's danger in glorifying negative emotions as fuel for art.
+Tavi Gevinson
+Danger hides in beauty and beauty in danger.
+Belva Plain
+There is danger in reckless change, but greater danger in blind conservatism.
+Henry George
+It is dangerous to exist in the world. To exist is to be threatened. We must live with threats.
+Adam Levin
+Danger, if met head on, can be nearly halved.
+Winston Churchill
+Fear of danger is ten thousand times more terrifying than danger itself.
+Daniel Defoe
+Danger is ever-present in life, more for some than others.
+T.I.
+Danger is like wine, it goes to your head.
+Madame De Stael

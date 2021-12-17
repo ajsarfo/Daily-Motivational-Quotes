@@ -13,6 +13,10 @@ class StartActivity : BaseActivity() {
     @Inject
     lateinit var setup: Setup
 
+    override fun canShowInterstitial(): Boolean {
+        return false
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         lifecycleScope.launchWhenCreated {

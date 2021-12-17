@@ -3,6 +3,7 @@ package com.sarftec.dailymotivationalquotes.presentation.activity
 import android.os.Bundle
 import android.view.LayoutInflater
 import com.sarftec.dailymotivationalquotes.R
+import com.sarftec.dailymotivationalquotes.application.advertisement.BannerManager
 import com.sarftec.dailymotivationalquotes.application.file.vibrate
 import com.sarftec.dailymotivationalquotes.databinding.ActivityFavoriteQuoteBinding
 import com.sarftec.dailymotivationalquotes.presentation.binding.FavoriteQuoteBinding
@@ -18,6 +19,12 @@ class FavoriteQuoteActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        /*************** Admob Configuration ********************/
+        BannerManager(this, adRequestBuilder).attachBannerAd(
+            getString(R.string.admob_banner_favorite_quote),
+            binding.mainBanner
+        )
+        /**********************************************************/
         setUpToolbar()
         intent.getBundleExtra(ACTIVITY_BUNDLE)?.let { bundle ->
             val title = bundle.getString(FAVORITE_QUOTE_TITLE)

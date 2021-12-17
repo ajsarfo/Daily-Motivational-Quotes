@@ -1,137 +1,66 @@
-{
-  "title" :"Children",
-  "quotes" : [
-    {
-      "message" : "A baby is God's opinion that the world should go on.",
-      "name" : "Carl Sandburg"
-    },
-     {
-      "message" : "Children are natural mimics who act like their parents despite every effort to teach them good manners.",
-      "name" : "Anonymous"
-    },
-     {
-      "message" : "A child of five would understand this. Send someone to fetch a child of five.",
-      "name" : "Groucho Marx"
-    },
-     {
-      "message" : "Children seldom misquote you. In fact, they usually repeat word for word what you shouldn't have said.",
-      "name" : "Anonymous"
-    },
-     {
-      "message" : "Blessed are the young for they shall inherit the national debt.",
-      "name" : "Herbert Hoover"
-    },
-     {
-      "message" : "Children today are tyrants. They contradict their parent, gobble their food, and tyrannize their teachers.",
-      "name" : "Socrates"
-    },
-     {
-      "message" : "Familiarity breeds contempt - and children.",
-      "name" : "Mark Twain"
-    },
-     {
-      "message" : "I am not young enough to know everything.",
-      "name" : "Oscar Wilde"
-    },
-     {
-      "message" : "Flowers are words which even a baby can understand.",
-      "name" : "Arthur C. Coxe"
-    },
-     {
-      "message" : "Giving birth is like taking your lower lip and forcing it over your head.",
-      "name" : "Carol Burnett"
-    },
-     {
-      "message" : "I love children, especially when they cry, for then someone takes them away.",
-      "name" : "Nancy Mitford"
-    },
-     {
-      "message" : "If you want to recapture your youth, just cut off his allowance.",
-      "name" : "Al Bernstein"
-    },
-     {
-      "message" : "Never raise your hands to your kids. It leaves your groin unprotected.",
-      "name" : 	"Red Buttons"
-    },
-     {
-      "message" : "It's never too late to have a happy childhood.",
-      "name" : "Tom Robbins"
-    },
-     {
-      "message" : "Lawyers, I suppose, were children once.",
-      "name" : "Charles Lamb"
-    },
-     {
-      "message" : "The first half of our life is ruined by our parents and the second half by our children.",
-      "name" : "Clarence Darrow"
-    },
-     {
-      "message" : "Most convicted felons are just people who were not taken to museums or Broadway musicals as children.",
-      "name" : "Libby Gelman-Waxner"
-    },
-     {
-      "message" : "The old believe everything, the middle-aged suspect everything, the young know everything.",
-      "name" : "Oscar Wilde"
-    },
-     {
-      "message" : "Youth is wasted on the young.",
-      "name" : "George Bernard Shaw"
-    },
-     {
-      "message" : "Human beings are the only creatures that allow their children to come back home.",
-      "name" : "Bill Cosby"
-    },
-     {
-      "message" : "Ask your child what he wants for dinner only if he's buying.",
-      "name" : "Fran Lebowitz"
-    },
-     {
-      "message" : "People who get nostalgic about childhood were obviously never children.",
-      "name" : "Bill Watterson"
-    },
-     {
-      "message" : "If your parents never had children, chances are you won't, either.",
-      "name" : "Dick Cavett"
-    },
-     {
-      "message" : "Never have children, only grandchildren.",
-      "name" : "Gore Vidal"
-    },
-     {
-      "message" : "My mother loved children -- she would have given anything if I had been one.",
-      "name" : "Groucho Marx"
-    },
-     {
-      "message" : "I have found the best way to give advice to your children is to find out what they want and then advise them to do it.",
-      "name" : "Harry S Truman"
-    },
-     {
-      "message" : "If you want to see what children can do, you must stop giving them things.",
-      "name" : "Norman Douglas"
-    },
-     {
-      "message" : "Always be nice to your children because they are the ones who will choose your rest home.",
-      "name" : "Phyllis Diller"
-    },
-     {
-      "message" : "I take my children everywhere, but they always find their way back home.",
-      "name" : "Robert Orben"
-    },
-     {
-      "message" : "The reason grandparents and grandchildren get along so well is that they have a common enemy.",
-      "name" : "Sam Levenson"
-    },
-     {
-      "message" : "Somewhere on this globe, every ten seconds, there is a woman giving birth to a child. She must be found and stopped.",
-      "name" : "Sam Levenson"
-    },
-     {
-      "message" : "Insanity is hereditary - you get it from your children.",
-      "name" : "Sam Levenson"
-    },
-     {
-      "message" : "The simplest toy, one which even the youngest child can operate, is called a grandparent.",
-      "name" : "Sam Levenson"
-    }
-    ]
-}
+A baby is God's opinion that the world should go on.
+Carl Sandburg
+Children are natural mimics who act like their parents despite every effort to teach them good manners.
+Anonymous
+A child of five would understand this. Send someone to fetch a child of five.
+Groucho Marx
+Children seldom misquote you. In fact, they usually repeat word for word what you shouldn't have said.
+Anonymous
+Blessed are the young for they shall inherit the national debt.
+Herbert Hoover
+Children today are tyrants. They contradict their parent, gobble their food, and tyrannize their teachers.
+Socrates
+Familiarity breeds contempt - and children.
+Mark Twain
+I am not young enough to know everything.
+Oscar Wilde
+Flowers are words which even a baby can understand.
+Arthur C. Coxe
+Giving birth is like taking your lower lip and forcing it over your head.
+Carol Burnett
+I love children, especially when they cry, for then someone takes them away.
+Nancy Mitford
+If you want to recapture your youth, just cut off his allowance.
+Al Bernstein
+Never raise your hands to your kids. It leaves your groin unprotected.
+Red Buttons
+It's never too late to have a happy childhood.
+Tom Robbins
+Lawyers, I suppose, were children once.
+Charles Lamb
+The first half of our life is ruined by our parents and the second half by our children.
+Clarence Darrow
+Most convicted felons are just people who were not taken to museums or Broadway musicals as children.
+Libby Gelman-Waxner
+The old believe everything, the middle-aged suspect everything, the young know everything.
+Oscar Wilde
+Youth is wasted on the young.
+George Bernard Shaw
+Human beings are the only creatures that allow their children to come back home.
+Bill Cosby
+Ask your child what he wants for dinner only if he's buying.
+Fran Lebowitz
+People who get nostalgic about childhood were obviously never children.
+Bill Watterson
+If your parents never had children, chances are you won't, either.
+Dick Cavett
+Never have children, only grandchildren.
+Gore Vidal
+My mother loved children -- she would have given anything if I had been one.
+Groucho Marx
+I have found the best way to give advice to your children is to find out what they want and then advise them to do it.
+Harry S Truman
+If you want to see what children can do, you must stop giving them things.
+Norman Douglas
+Always be nice to your children because they are the ones who will choose your rest home.
+Phyllis Diller
+I take my children everywhere, but they always find their way back home.
+Robert Orben
+The reason grandparents and grandchildren get along so well is that they have a common enemy.
+Sam Levenson
+Somewhere on this globe, every ten seconds, there is a woman giving birth to a child. She must be found and stopped.
+Sam Levenson
+Insanity is hereditary - you get it from your children.
+Sam Levenson
+The simplest toy, one which even the youngest child can operate, is called a grandparent.
+Sam Levenson

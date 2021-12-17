@@ -7,12 +7,15 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import androidx.paging.PagingData
 import com.sarftec.dailymotivationalquotes.R
+import com.sarftec.dailymotivationalquotes.application.advertisement.BannerManager
+import com.sarftec.dailymotivationalquotes.application.advertisement.RewardVideoManager
 import com.sarftec.dailymotivationalquotes.application.file.vibrate
 import com.sarftec.dailymotivationalquotes.databinding.ActivityViewBinding
 import com.sarftec.dailymotivationalquotes.presentation.fragment.content.ListContentFragment
 import com.sarftec.dailymotivationalquotes.presentation.fragment.content.SingleContentFragment
 import com.sarftec.dailymotivationalquotes.presentation.listener.ContentListener
 import com.sarftec.dailymotivationalquotes.presentation.model.ContentModel
+import com.sarftec.dailymotivationalquotes.presentation.tools.LoadingScreen
 import com.sarftec.dailymotivationalquotes.presentation.viewmodel.ListViewModel
 import kotlinx.coroutines.flow.Flow
 
@@ -28,9 +31,32 @@ class ViewActivity : BaseActivity(), ContentListener {
 
     private val viewModel by viewModels<ListViewModel>()
 
+    private val rewardVideoManager by lazy {
+        RewardVideoManager(
+            this,
+            R.string.admob_reward_video_id,
+            adRequestBuilder,
+            networkManager
+        )
+    }
+
+    private val loadingScreen by lazy {
+        LoadingScreen(this)
+    }
+
+    override fun canShowInterstitial(): Boolean {
+        return false
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
+        /*************** Admob Configuration ********************/
+        BannerManager(this, adRequestBuilder).attachBannerAd(
+            getString(R.string.admob_banner_detail),
+            binding.mainBanner
+        )
+        /**********************************************************/
         savedInstanceState ?: kotlin.run {
             viewModel.setBundle(intent.getBundleExtra(ACTIVITY_BUNDLE))
         }
@@ -92,5 +118,13 @@ class ViewActivity : BaseActivity(), ContentListener {
 
     override fun save(contentModel: ContentModel) {
         viewModel.save(contentModel)
+    }
+
+    override fun showRewardVideo(callback: () -> Unit) {
+        loadingScreen.show()
+        rewardVideoManager.showRewardVideo {
+            loadingScreen.dismiss()
+            callback()
+        }
     }
 }

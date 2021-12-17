@@ -12,8 +12,12 @@ import androidx.fragment.app.Fragment
 import androidx.fragment.app.commit
 import androidx.lifecycle.lifecycleScope
 import com.sarftec.dailymotivationalquotes.R
+import com.sarftec.dailymotivationalquotes.application.advertisement.AdCountManager
+import com.sarftec.dailymotivationalquotes.application.advertisement.BannerManager
+import com.sarftec.dailymotivationalquotes.application.advertisement.InterstitialManager
 import com.sarftec.dailymotivationalquotes.application.file.*
 import com.sarftec.dailymotivationalquotes.application.imagestore.toAssetUri
+import com.sarftec.dailymotivationalquotes.application.manager.AppReviewManager
 import com.sarftec.dailymotivationalquotes.databinding.ActivityMainBinding
 import com.sarftec.dailymotivationalquotes.databinding.LayoutRatingsDialogBinding
 import com.sarftec.dailymotivationalquotes.presentation.binding.MainBinding
@@ -36,19 +40,9 @@ class MainActivity : BaseActivity(), ActivityListener {
         )
     }
 
-    private val ratingsManager by lazy {
-        RatingsManager(
-            lifecycleScope,
-            RatingsDialog(
-                LayoutRatingsDialogBinding.inflate(
-                    LayoutInflater.from(this),
-                    binding.root,
-                    false
-                )
-            )
-        )
+    private val reviewManager by lazy {
+      AppReviewManager(this)
     }
-
 
     private var currentFragment: Fragment? = null
 
@@ -58,10 +52,19 @@ class MainActivity : BaseActivity(), ActivityListener {
 
     private var exitApp = false
 
+    override fun createAdCounterManager(): AdCountManager {
+        return AdCountManager(listOf(1, 3, 2, 3))
+    }
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(binding.root)
-        //Perform other setups
+        /*************** Admob Configuration ********************/
+        BannerManager(this, adRequestBuilder).attachBannerAd(
+            getString(R.string.admob_banner_main),
+            binding.mainBanner
+        )
+        /**********************************************************/
         setupToolbar()
         setUpDrawer()
         setUpNavigationView()
@@ -69,7 +72,7 @@ class MainActivity : BaseActivity(), ActivityListener {
         configureNavigationDrawer()
         setFragment(AuthorFragment().also { currentFragment = it })
         lifecycleScope.launchWhenStarted {
-            ratingsManager.init()
+            reviewManager.init().triggerReview()
         }
     }
 
@@ -99,7 +102,9 @@ class MainActivity : BaseActivity(), ActivityListener {
                 dependency,
                 {
                     dependency.apply { coroutineScope.vibrate(context) }
-                    navigateTo(FavoriteListActivity::class.java)
+                    interstitialManager?.showAd {
+                        navigateTo(FavoriteListActivity::class.java)
+                    }
                 },
                 {
                     dependency.apply { coroutineScope.vibrate(context) }
